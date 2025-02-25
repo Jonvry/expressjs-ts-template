@@ -24,14 +24,20 @@ This is a minimal **Express.js + TypeScript** template designed for speed and ea
    ```sh
    npm install
    ```
+   
+3. **Create a `.env` file in your root directory and define your environment variables:**
 
-3. **Run the development server**
+   ```sh
+   PORT=4000
+   ```
+
+4. **Run the development server**
 
    ```sh
    npm run dev
    ```
 
-4. **Build and start for production**
+5. **Build and start for production**
    ```sh
    npm run build
    npm start
@@ -56,16 +62,6 @@ express-js-typescript-template/
 | `npm run dev`   | Starts the app in development mode with Nodemon |
 | `npm run build` | Compiles TypeScript to JavaScript               |
 | `npm start`     | Runs the compiled app                           |
-
-## 🔧 Using `.env` File
-
-Create a `.env` file in your root directory and define your environment variables:
-
-```env
-PORT=4000
-DATABASE_URL=posgresql://localhost:27017/mydatabase
-SECRET_KEY=mysecretkey
-```
 
 ## 📜 Dependencies
 
